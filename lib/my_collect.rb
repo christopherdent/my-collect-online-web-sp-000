@@ -7,7 +7,7 @@ def my_collect(array)
       i = i + 1
   
   end
-  p collection
+  puts collection
 end 
   
 array = ["ruby", "javascript", "python", "objective-c"]
