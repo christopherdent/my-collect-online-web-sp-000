@@ -9,8 +9,8 @@ def my_collect(array)
   p collection
 end 
   
-array = ["ruby", "javascript", "python", "objective-c"]
-my_collect(array) do |lang|
-  lang.upcase
+students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
+my_collect(students) do |name|
+  name.split(" ").first
 end 
   
